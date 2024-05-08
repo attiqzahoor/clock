@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color: darkcyan;
+}
+h1{
+  position: relative;
+  top: 10vh;
+  text-align: center;
+  color: white;
+}
+#clock{
+  background-color: black;
+  position: relative;
+  top: 25vh;
+  left: 40vw;
+  width: 20vw;
+  height: 10vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
